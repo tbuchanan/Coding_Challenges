@@ -16,12 +16,13 @@ Yield is used to place blocks of code.
 Rails- .erb files "yield" their blocks of code to the application.erb file. Any code placed within the body of a view .erb, ie. index.html.erb, will yield to the page.
 
 Ruby- yield is replaced by a block of code.
-	def double(number)
-		yield(4)
-		yield(8)
-		yield(number)
-	end
-	double(6) { |x| puts "#{x * 2}" } => 8, 16, 12
+
+		def double(number)
+			yield(4)
+			yield(8)
+			yield(number)
+		end
+		double(6) { |x| puts "#{x * 2}" } => 8, 16, 12
 
 ####What does MVC does stand for? How does it work? Why it is beneficial?
 ![image](http://i.imgur.com/8se4wu1.png)
