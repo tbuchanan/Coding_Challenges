@@ -6,11 +6,11 @@
 #  For example: if str is 9:00am-10:00am then the output should be 60. 
 #  If str is 1:00pm-11:00am the output should be 1320.
 
-str = "9:00am-10:00am"
+# str = "9:00am-10:00am"
 str = "1:00pm-11:00am"
 def CountingMinutes(str)
 array = str.split("-")
-# function: if both time are am or both times are pm
+# function: if both times are am or both times are pm
 	if array[0].include?("am") && array[1].include?("am") || array[0].include?("pm") && array[1].include?("pm")
 		if str[0].to_i < 10 && str[1] == ":"
 			firstHour = str[0].to_i
@@ -48,7 +48,7 @@ array = str.split("-")
 		end
 	minutes = (((firstHour - secondHour).abs - 12) * 60).abs
 
-# function: if second time is am and first time is pm
+# function: if second time is pm and first time is pm
 	elsif array[0].include?("pm") && array[1].include?("am")
 		if str[0].to_i < 10 && str[1] == ":"
 			firstHour = str[0].to_i
