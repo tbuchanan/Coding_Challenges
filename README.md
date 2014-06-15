@@ -26,7 +26,7 @@ Ruby- yield is replaced by a block of code.
 ####What does MVC does stand for? How does it work? Why it is beneficial?
 ![image](http://i.imgur.com/8se4wu1.png)
 
-Model- is the "knowledge" or database and communicates with the View & Controller (see pic). Holds the classes used to store data and manipulate state.
+Model- is the "knowledge" or database and communicates with the View and Controller (see pic). Holds the classes used to store data and manipulate state.
 
 View- User Interface(UI) which renders the model data to the page/User.
 
