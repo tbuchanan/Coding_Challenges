@@ -7,10 +7,7 @@ str2 = "world"
 def string_scramble(str1, str2)
   arr1 = str1.split("")
   arr2 = str2.split("")
-  p arr1.each_with_index
-  # arr2.sort
-  # str1 < str2.length
-  # delete
+  
 
 
   
