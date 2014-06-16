@@ -4,15 +4,8 @@
 // output 2 because there are two duplicates of one of the elements.
 
 var array = [1, 2, 2, 2, 3];
+// count = 0
 function DistinctList(array){
-	count = 0
-	for(var i = 0; i < array.length; i++){
-		if (array[i] === 2){
-			count ++
-		}	
-		console.log(count);
-	}
+
 }
-
 DistinctList(array);
-
