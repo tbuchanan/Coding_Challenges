@@ -17,7 +17,7 @@ array = str.split("-")
 		elsif str[0].to_i < 10 && str[1] != ":"
 			firstHour = (str[0] + str[1]).to_i
 		else
-			firstHour = nil
+			nil
 		end
 		
 		if str[7].to_i < 10 && str[8] == ":"
@@ -36,7 +36,7 @@ array = str.split("-")
 		elsif str[0].to_i < 10 && str[1] != ":"
 			firstHour = (str[0] + str[1]).to_i
 		else
-			firstHour = nil
+			nil
 		end
 		
 		if str[7].to_i < 10 && str[8] == ":"
@@ -55,7 +55,7 @@ array = str.split("-")
 		elsif str[0].to_i < 10 && str[1] != ":"
 			firstHour = (str[0] + str[1]).to_i
 		else
-			firstHour = nil
+			nil
 		end
 		
 		if str[7].to_i < 10 && str[8] == ":"
